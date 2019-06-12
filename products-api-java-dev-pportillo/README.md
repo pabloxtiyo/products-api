@@ -1,18 +1,9 @@
 # Products API (v1.0.0)
 
-
-
-## What's included?
-
-* An example CRUD for reference
-* Thymeleaf as template engine.
-* Internationalization i18n
-* Unit Testing examples with JUnit
-* Compliance with Logging Standard   
-
 ## Patterns and best practices used:
 
-* Model, view and controller pattern (MVC)
+* Embedded H2 database.
+* Rest API 
 * Services pattern (@Service)
 * Data access object pattern (DAO, @Repository)
 * Inversion of control pattern & dependency injection (@Autowired)
@@ -25,49 +16,31 @@ These instructions will get you a copy of the project up and running on your loc
 
 You need to install at least these software before been able to use the project.
 
-* JDK 1.7+
+* JDK 1.8+
 * Sprint Tool Suite
-* Tomcat 7+
 
 ### Installing
 
-Cloning the repository
+* Cloning the repository
 
 ```
-git clone http://webapps05.ti.ads:11211/java_platform/client-application-template-base.git
+git clone https://github.com/pabloxtiyo/products-api.git
 ```
 
-And repeat
-
+* Import a maven project from the Spring Tool Suite
+* The application has his own H2 embedded database
+* Run the solution as an spring boot application.
+* The application comes with two started users, admin with password 'admin' and Role 'ADMIN' and user with password 'user' and Role 'USER'.
+* You can also use swagger to navigate throug the API visiting this url:
 ```
-until finished
+http://locahost:8080/pablo-portillo/swagger-ui.html#/
+```
+* To visit the H2 database console please go to:
+```
+http://localhost:8080/pablo.portillo/console
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -80,19 +53,11 @@ Add additional notes about how to deploy this on a live system
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [JQuery](https://jquery.com/) - Used to generate RSS Feeds
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Rolando Cisneros** - *Initial work* - [IS Developer]
-* **Mauricio Batlle** - *Initial work* - [IS Developer]
-* **Jose Hernan Arteaga** - *Enhancements & definitions* - [IS Architect]
-* **Pablo Portillo** - *Enhancements & definitions* - [IS Architecture TL]
-
-See also the list of [contributors](http://webapps05.ti.ads:11211/java_platform/client-application-template-base/graphs/dev) who participated in this project.
+* **Pablo Portillo** - *Enhancements & definitions* 
 
 ## Acknowledgments
 
-* We really hope that this base starter kit serve as a base line for every development of IS in the next years.
+* I really hope that this testing API can help you to understand a little bit about REST and his principles.
