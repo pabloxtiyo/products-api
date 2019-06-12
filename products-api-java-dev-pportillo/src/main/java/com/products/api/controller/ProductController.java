@@ -189,15 +189,6 @@ public class ProductController {
 		}
 		
 	}
-	
-	@GetMapping("/product/purshase")
-	public ResponseEntity<?> purshaseList()
-	{
-		logger.info("Retrieving purshase list");
-
-		return new ResponseEntity<List<ProductPurshase>>(productPurshaseService.findAll(),HttpStatus.OK);
-		
-	}
 
 	@PostMapping("/product/like/{name}")
 	public ResponseEntity<?> likingAProduct(@PathVariable("name") String name) throws ProductNotFoundException

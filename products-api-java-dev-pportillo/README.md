@@ -27,7 +27,7 @@ You need to install at least these software before been able to use the project.
 git clone https://github.com/pabloxtiyo/products-api.git
 ```
 
-* Import a maven project from the Spring Tool Suite
+* Import the application as a maven project from the Spring Tool Suite
 * The application has his own H2 embedded database
 * Run the solution as an spring boot application.
 * The application comes with two started users, admin with password 'admin' and Role 'ADMIN' and user with password 'user' and Role 'USER'.
