@@ -1,7 +1,6 @@
-# TELUS International Base Starter Kit (v1.3.0)
+# Products API (v1.0.0)
 
-This is an effort of IS architecture team to implement a clear base line of development for our team members.
-The base starter kit is based on Spring Boot following the convention over configuration principle.
+
 
 ## What's included?
 
