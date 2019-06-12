@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<Context>
+	<!-- The next line is important in order to connect with Keycloak. Please, do not remove it. -->
+	<Valve className="org.keycloak.adapters.tomcat.KeycloakAuthenticatorValve" />
+	
+	<!-- The following block allows you to use a datasource from Apache Tomcat. Uncomment it if you need it. -->
+	<!--  
+		<ResourceLink name="jdbc/ClientAppDbResource" global="jdbc/ClientAppDbResource" type="javax.sql.DataSource" />
+    -->
+    <ResourceLink name="jdbc/ClientAppDb" global="jdbc/ClientAppDb" type="javax.sql.DataSource" />
+</Context>

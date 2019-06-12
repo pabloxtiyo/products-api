@@ -1,0 +1,8 @@
+{
+  "realm": "TELUS International",
+  "auth-server-url": "http://172.25.26.25/auth",
+  "ssl-required": "external",
+  "resource": "insurance-system-tica",
+  "public-client": true,
+  "use-resource-role-mappings": true
+}

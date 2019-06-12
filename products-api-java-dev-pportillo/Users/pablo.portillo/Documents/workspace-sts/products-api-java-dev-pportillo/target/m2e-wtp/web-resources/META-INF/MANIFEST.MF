@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: Products API
+Implementation-Version: 1.0.0
+Built-By: pablo.portillo
+Implementation-Vendor-Id: products-api
+Build-Jdk: 1.8.0_161
+Implementation-URL: http://projects.spring.io/spring-boot/products-api
+ /
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

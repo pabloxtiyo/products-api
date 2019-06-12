@@ -1,0 +1,13 @@
+This is the description of the format of the keycloak.json file.
+
+{
+  "realm": "TELUS International",				--> This line refers to the real. It should be always "TELUS International".
+  "auth-server-url": "http://server/auth",		--> This is the Keycloak server. Refer to the architecture team in order to have a path.
+  "ssl-required": "external",					--> This indicates if SSL will be required (it should be always external).
+  "resource": "keycloak_client_name",			--> Client app name in Keycloak (Keycloak client's name).
+  "public-client": true,						--> All client apps are treated as public clients (always true).
+  "use-resource-role-mappings": true,			--> It indicates Keycloak to use resources only for the client (application, always true). 
+  "autodetect-bearer-only": true				--> This allows REST controllers to work side-to-side with GUI controllers.
+}
+
+Remember, Keycloak returns this data in JSON format. All you need to do is to ask a Keycloak admin to share the JSON data for your application.
