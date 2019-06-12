@@ -30,7 +30,7 @@ git clone https://github.com/pabloxtiyo/products-api.git
 * Import the application as a maven project from the Spring Tool Suite
 * The application has his own H2 embedded database
 * Run the solution as an spring boot application.
-* The application comes with two started users, admin with password 'admin' and Role 'ADMIN' and user with password 'user' and Role 'USER'.
+* The application comes with two starter users, admin with password 'admin' and Role 'ADMIN' and user with password 'user' and Role 'USER'.
 * You can also use swagger to navigate throug the API visiting this url:
 ```
 http://locahost:8080/pablo-portillo/swagger-ui.html#/
@@ -49,9 +49,7 @@ End with an example of getting some data out of the system or using it for a lit
 * [Spring DATA](https://spring.io/projects/spring-data)
 * [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html) 
 * [Spring Security](https://spring.io/projects/spring-security)
-* [Thymeleaf](https://www.thymeleaf.org/) - Templates Engine
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [JQuery](https://jquery.com/) - Used to generate RSS Feeds
 
 
 ## Authors
