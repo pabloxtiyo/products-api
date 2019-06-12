@@ -54,7 +54,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Authors
 
-* **Pablo Portillo** - *Enhancements & definitions* 
+* **Pablo Portillo** - *Development* 
 
 ## Acknowledgments
 
