@@ -33,11 +33,11 @@ git clone https://github.com/pabloxtiyo/products-api.git
 * The application comes with two starter users, admin with password 'admin' and Role 'ADMIN' and user with password 'user' and Role 'USER'.
 * You can also use swagger to navigate throug the API visiting this url:
 ```
-http://locahost:8080/pablo-portillo/swagger-ui.html#/
+http://localhost:8080/pablo-portillo/swagger-ui.html
 ```
 * To visit the H2 database console please go to:
 ```
-http://localhost:8080/pablo.portillo/console
+http://localhost:8080/pablo-portillo/console
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
